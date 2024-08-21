@@ -1,0 +1,152 @@
+.centered {
+    text-align: center;
+    font-family:fantasy;
+  }
+
+.Biodata {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ImageMarshall, .ImagePutu, .ImageEvan {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: honeydew;
+    filter: blur(10%);
+}  
+
+h1, h2 {
+    border-radius: 10px;
+}
+
+.AddMarshall, .AddPutu, .AddEvan {
+    background-color: honeydew;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    text-align: center;
+}
+
+table {
+    background-color: antiquewhite;
+}
+
+h1 {
+    background-color: bisque;
+    text-align: center;
+}
+
+h2 {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+#detail1 {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#detail2 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+#detail3 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 0px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    filter: blur:50px();
+}
+
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin-left: 50;
+}
+
+.logo {
+    font-size: x-large;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.menu, a:hover {
+    color: aqua;
+}
+.menu, a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.4rem;
+    border-bottom: 0.1rem solid yellow;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.menu, a:hover::after {
+    transform: scaleX(0.7);
+}
+
+.ImageHome {
+    position: relative;
+    margin: auto;
+}
+
+h1 {
+    color: black;
+    font-family: fantasy;
+}
